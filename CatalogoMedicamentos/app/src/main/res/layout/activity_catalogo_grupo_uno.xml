@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="grupoUno.catalogoGrupoUno.principalCatalogoGrupoUno.catalogoGrupoUno">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn8_Catalogo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/buprenorfina_sol_catalogo"
+                android:onClick="SeleccionCatalogo"/>
+
+            <Button
+                android:id="@+id/btn9_Catalogo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/buprenorfina_par_catalogo"
+                android:onClick="SeleccionCatalogo" />
+
+            <Button
+                android:id="@+id/btn10_Catalogo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/clonixinato_de_lisina_catalogo"
+                android:onClick="SeleccionCatalogo" />
+
+            <Button
+                android:id="@+id/btn11_Catalogo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dexmetomidina_sol1_catalogo"
+                android:onClick="SeleccionCatalogo" />
+
+            <Button
+                android:id="@+id/btn12_Catalogo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dexmetomidina_sol2_catalogo"
+                android:onClick="SeleccionCatalogo" />
+
+            <Button
+                android:id="@+id/btn13_Catalogo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dexmetomidina_sol3_catalogo"
+                android:onClick="SeleccionCatalogo" />
+
+            <Button
+                android:id="@+id/btn14_Catalogo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/fentanilo_catalogo"
+                android:onClick="SeleccionCatalogo" />
+
+            <Button
+                android:id="@+id/btn15_Catalogo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ketorolaco_catalogo"
+                android:onClick="SeleccionCatalogo" />
+
+            <Button
+                android:id="@+id/btn16_Catalogo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/morfina_catalogo"
+                android:onClick="SeleccionCatalogo" />
+
+            <Button
+                android:id="@+id/btn17_Catalogo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nalbufina_in1_catalogo"
+                android:onClick="SeleccionCatalogo" />
+
+            <Button
+                android:id="@+id/btn18_Catalogo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nalbufina_in2_catalogo"
+                android:onClick="SeleccionCatalogo" />
+
+            <Button
+                android:id="@+id/btn19_Catalogo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/paracetamol_in1_catalogo"
+                android:onClick="SeleccionCatalogo" />
+
+            <Button
+                android:id="@+id/btn20_Catalogo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/paracetamol_in2_catalogo"
+                android:onClick="SeleccionCatalogo" />
+
+            <Button
+                android:id="@+id/btn21_Catalogo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tramadol_catalogo"
+                android:onClick="SeleccionCatalogo" />
+
+            <Button
+                android:id="@+id/btn22_Catalogo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tramadol_parac_catalogo"
+                android:onClick="SeleccionCatalogo" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

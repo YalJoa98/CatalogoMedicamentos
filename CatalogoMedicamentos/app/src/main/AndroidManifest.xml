@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.catalogomedicamentos">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="grupoDos.cuadroBasicoGrupoDos.medicamentosCuadroBasicoGrupoDos.lidocainaEpinefrinaSolucionDosGrupoDos"></activity>
+        <activity android:name="grupoDos.cuadroBasicoGrupoDos.medicamentosCuadroBasicoGrupoDos.lidocainaEpinefrinaSolucionUnoGrupoDos" />
+        <activity android:name="grupoDos.cuadroBasicoGrupoDos.medicamentosCuadroBasicoGrupoDos.lidocainaSolucionTresGrupoDos" />
+        <activity android:name="grupoDos.cuadroBasicoGrupoDos.medicamentosCuadroBasicoGrupoDos.lidocainaSolucionDosCuadroBAsicoGrupoDos" />
+        <activity android:name="grupoDos.cuadroBasicoGrupoDos.medicamentosCuadroBasicoGrupoDos.lidocainaSolucionUnoGrupoDos" />
+        <activity android:name="grupoDos.cuadroBasicoGrupoDos.medicamentosCuadroBasicoGrupoDos.atropinaGrupoDos" />
+        <activity android:name="grupoDos.cuadroBasicoGrupoDos.principalCuadroBasicoGrupoDos.cuadroBasicoGrupoDos" />
+        <activity android:name="grupoDos.catalogoGrupoDos.principalCatalogoGrupoDos.catalogoGrupoDos" />
+        <activity android:name="grupoDos.principal.grupoDos" />
+        <activity android:name="grupoUno.catalogoGrupoUno.medicamentosCatalogoGrupoUno.tramadolParacetamolCatalogoGrupoUno" />
+        <activity android:name="grupoUno.catalogoGrupoUno.medicamentosCatalogoGrupoUno.tramadolCatalogoGrupoUno" />
+        <activity android:name="grupoUno.catalogoGrupoUno.medicamentosCatalogoGrupoUno.paracetamolSolucionDosCatalagoGrupoUno" />
+        <activity android:name="grupoUno.catalogoGrupoUno.medicamentosCatalogoGrupoUno.paracetamolSolucionUnoCatalogoGrupoUno" />
+        <activity android:name="grupoUno.catalogoGrupoUno.medicamentosCatalogoGrupoUno.nalbufinaSolucionDosCatalogoGrupoUno" />
+        <activity android:name="grupoUno.catalogoGrupoUno.medicamentosCatalogoGrupoUno.nalbufinaSolucionUnoCatalogoGrupoUno" />
+        <activity android:name="grupoUno.catalogoGrupoUno.medicamentosCatalogoGrupoUno.morfinaCatalogoGrupoUno" />
+        <activity android:name="grupoUno.catalogoGrupoUno.medicamentosCatalogoGrupoUno.ketorolacoCatalogoGrupoUno" />
+        <activity android:name="grupoUno.catalogoGrupoUno.medicamentosCatalogoGrupoUno.fentaniloCatalogoGrupoUno" />
+        <activity android:name="grupoUno.catalogoGrupoUno.medicamentosCatalogoGrupoUno.dexmetomidinaSolucionTresCatalogoGrupoUno" />
+        <activity android:name="grupoUno.catalogoGrupoUno.medicamentosCatalogoGrupoUno.dexmetomidinaSolucionDosCatalogoGrupoUno" />
+        <activity android:name="grupoUno.catalogoGrupoUno.medicamentosCatalogoGrupoUno.dexmetomidinaSolucionUnoCatalogoGrupoUno" />
+        <activity android:name="grupoUno.catalogoGrupoUno.medicamentosCatalogoGrupoUno.clonixinatoCatalogoGrupoUno" />
+        <activity android:name="grupoUno.catalogoGrupoUno.medicamentosCatalogoGrupoUno.buprenorfinaParcheCatalogoGrupoUno" />
+        <activity android:name="grupoUno.catalogoGrupoUno.medicamentosCatalogoGrupoUno.buprenorfinaSolucionCatalogoGrupoUno" />
+        <activity android:name="grupoUno.cuadroBasicoGrupoUno.medicamentosCuadroBasicoGrupoUno.paracetamolSolucionOral" />
+        <activity android:name="grupoUno.cuadroBasicoGrupoUno.medicamentosCuadroBasicoGrupoUno.paracetamolSupositorio" />
+        <activity android:name="grupoUno.cuadroBasicoGrupoUno.medicamentosCuadroBasicoGrupoUno.paracetamolTableta" />
+        <activity android:name="grupoUno.cuadroBasicoGrupoUno.medicamentosCuadroBasicoGrupoUno.metamizolSodicoSolucion" />
+        <activity android:name="grupoUno.cuadroBasicoGrupoUno.medicamentosCuadroBasicoGrupoUno.metamizolSodicoComprimido" />
+        <activity android:name="grupoUno.cuadroBasicoGrupoUno.medicamentosCuadroBasicoGrupoUno.ibuprofeno" />
+        <activity android:name="grupoUno.cuadroBasicoGrupoUno.medicamentosCuadroBasicoGrupoUno.acidoAcetilsalcilico" />
+        <activity android:name="grupoUno.cuadroBasicoGrupoUno.principalCuadroBasicoGrupoUno.cuadroBasicoGrupoUno" />
+        <activity android:name="grupoUno.catalogoGrupoUno.principalCatalogoGrupoUno.catalogoGrupoUno" />
+        <activity android:name="grupoUno.principal.grupoUno" />
+        <activity android:name="principal.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

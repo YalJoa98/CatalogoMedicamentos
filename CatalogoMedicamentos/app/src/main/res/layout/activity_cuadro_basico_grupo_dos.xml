@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="grupoDos.cuadroBasicoGrupoDos.principalCuadroBasicoGrupoDos.cuadroBasicoGrupoDos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn1_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCuadroBasicoGrupoDos"
+                android:text="@string/atropina_CB_GrupoDos" />
+
+            <Button
+                android:id="@+id/btn2_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCuadroBasicoGrupoDos"
+                android:text="@string/lidocaina_sol1_CB_GrupoDos" />
+
+            <Button
+                android:id="@+id/btn3_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCuadroBasicoGrupoDos"
+                android:text="@string/lidocaina_sol2_CB_GrupoDos" />
+
+            <Button
+                android:id="@+id/btn4_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCuadroBasicoGrupoDos"
+                android:text="@string/lidocaina_sol3_CB_GrupoDos" />
+
+            <Button
+                android:id="@+id/btn5_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCuadroBasicoGrupoDos"
+                android:text="@string/lidocainaEpinefria_sol1_CB_GrupoDos" />
+
+            <Button
+                android:id="@+id/btn6_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCuadroBasicoGrupoDos"
+                android:text="@string/lidocainaEpinefria_sol2_CB_GrupoDos" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

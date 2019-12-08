@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="grupoUno.cuadroBasicoGrupoUno.principalCuadroBasicoGrupoUno.cuadroBasicoGrupoUno">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn1_GrupoUno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Seleccion"
+                android:text="@string/acido_acetilsalcilico_CB" />
+
+            <Button
+                android:id="@+id/btn2_GrupoUno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Seleccion"
+                android:text="@string/ibuprofeno_CB" />
+
+            <Button
+                android:id="@+id/btn3_GrupoUno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Seleccion"
+                android:text="@string/metamizol_sodico_com_CB" />
+
+            <Button
+                android:id="@+id/btn4_GrupoUno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Seleccion"
+                android:text="@string/metamizol_sodico_sol_CB" />
+
+            <Button
+                android:id="@+id/btn5_GrupoUno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Seleccion"
+                android:text="@string/paracetamol_tableta_CB" />
+
+            <Button
+                android:id="@+id/btn6_GrupoUno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Seleccion"
+                android:text="@string/paracetamol_supositorio_CB" />
+
+            <Button
+                android:id="@+id/btn7_GrupoUno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Seleccion"
+                android:text="@string/paracetamol_solucion_CB" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
