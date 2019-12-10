@@ -45,7 +45,6 @@ public class cuadroBasicoGrupoDos extends AppCompatActivity {
                 Intent btn6=new Intent(this, lidocainaEpinefrinaSolucionDosGrupoDos.class);
                 startActivity(btn6);
                 break;
-                //prueba
         }
     }
 }

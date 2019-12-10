@@ -6,4 +6,186 @@
     android:layout_height="match_parent"
     tools:context="grupoDos.catalogoGrupoDos.principalCatalogoGrupoDos.catalogoGrupoDos">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn7_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCatalogoGrupoDos"
+                android:text="@string/bupivacaina_sol1_catalogo_grupoDos" />
+
+            <Button
+                android:id="@+id/btn8_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCatalogoGrupoDos"
+                android:text="@string/bupivacaina_sol2_catalogo_grupoDos" />
+
+            <Button
+                android:id="@+id/btn9_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCatalogoGrupoDos"
+                android:text="@string/besilatoDeCisatracurio_catalogo_grupoDos" />
+
+            <Button
+                android:id="@+id/btn10_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCatalogoGrupoDos"
+                android:text="@string/desflurano_grupoDos" />
+
+            <Button
+                android:id="@+id/btn11_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCatalogoGrupoDos"
+                android:text="@string/diazepam_sol1_catalogo_grupoDos" />
+
+            <Button
+                android:id="@+id/btn12_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCatalogoGrupoDos"
+                android:text="@string/diazepam_sol2_catalogo_grupoDos" />
+
+            <Button
+                android:id="@+id/btn13_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCatalogoGrupoDos"
+                android:text="@string/efedrina_catalogo_grupoDos" />
+
+            <Button
+                android:id="@+id/btn14_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCatalogoGrupoDos"
+                android:text="@string/etomidato_catalogo_grupoDos" />
+
+            <Button
+                android:id="@+id/btn15_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCatalogoGrupoDos"
+                android:text="@string/fentanilo_catalogo_grupoDos" />
+
+            <Button
+                android:id="@+id/btn16_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCatalogoGrupoDos"
+                android:text="@string/flumazenil_catalogo_grupoDos" />
+
+            <Button
+                android:id="@+id/btn17_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCatalogoGrupoDos"
+                android:text="@string/isoflurano_catalogo_grupoDos" />
+
+            <Button
+                android:id="@+id/btn18_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCatalogoGrupoDos"
+                android:text="@string/ketamina_catalogo_grupoDos" />
+
+            <Button
+                android:id="@+id/btn19_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCatalogoGrupoDos"
+                android:text="@string/midazolam_sol1_catalogo_grupoDos" />
+
+            <Button
+                android:id="@+id/btn20_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCatalogoGrupoDos"
+                android:text="@string/midazolam_sol2_catalogo_grupoDos" />
+
+            <Button
+                android:id="@+id/btn21_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCatalogoGrupoDos"
+                android:text="@string/naloxona_catalogo_grupoDos" />
+
+            <Button
+                android:id="@+id/btn22_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCatalogoGrupoDos"
+                android:text="@string/neostigmina_catalogo_grupoDos" />
+
+            <Button
+                android:id="@+id/btn23_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCatalogoGrupoDos"
+                android:text="@string/propofol_emu1_catalogoDos" />
+
+            <Button
+                android:id="@+id/btn24_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCatalogoGrupoDos"
+                android:text="@string/propofol_emu2_catalogoDos" />
+
+            <Button
+                android:id="@+id/btn25_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCatalogoGrupoDos"
+                android:text="@string/bromuroDeRocuronio_catalogo_grupoDos" />
+
+            <Button
+                android:id="@+id/btn26_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCatalogoGrupoDos"
+                android:text="@string/ropivacania_catalogo_grupoDos" />
+
+            <Button
+                android:id="@+id/btn27_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCatalogoGrupoDos"
+                android:text="@string/sevoflurano_catalogo_grupoDos" />
+
+            <Button
+                android:id="@+id/btn28_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCatalogoGrupoDos"
+                android:text="@string/cloruroDeSuxametonio_catalogo_" />
+
+            <Button
+                android:id="@+id/btn29_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCatalogoGrupoDos"
+                android:text="@string/tiopentalSodico_catalogo_grupoDos" />
+
+            <Button
+                android:id="@+id/btn30_grupoDos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SeleccionCatalogoGrupoDos"
+                android:text="@string/vecuronio_catalogo_grupoDos" />
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

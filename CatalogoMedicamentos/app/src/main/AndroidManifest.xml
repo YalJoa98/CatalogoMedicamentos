@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="grupoDos.cuadroBasicoGrupoDos.medicamentosCuadroBasicoGrupoDos.lidocainaEpinefrinaSolucionDosGrupoDos"></activity>
+        <activity android:name="grupoDos.catalogoGrupoDos.medicamentosCatalogoGrupoDos.bupivacainaSolucionDosGrupoDos"></activity>
+        <activity android:name="grupoDos.catalogoGrupoDos.medicamentosCatalogoGrupoDos.bupivacainaSolucionUnoGrupoDos" />
+        <activity android:name="grupoDos.cuadroBasicoGrupoDos.medicamentosCuadroBasicoGrupoDos.lidocainaEpinefrinaSolucionDosGrupoDos" />
         <activity android:name="grupoDos.cuadroBasicoGrupoDos.medicamentosCuadroBasicoGrupoDos.lidocainaEpinefrinaSolucionUnoGrupoDos" />
         <activity android:name="grupoDos.cuadroBasicoGrupoDos.medicamentosCuadroBasicoGrupoDos.lidocainaSolucionTresGrupoDos" />
         <activity android:name="grupoDos.cuadroBasicoGrupoDos.medicamentosCuadroBasicoGrupoDos.lidocainaSolucionDosCuadroBAsicoGrupoDos" />
