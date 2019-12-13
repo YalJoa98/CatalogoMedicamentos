@@ -10,6 +10,7 @@ import android.view.View;
 import com.example.catalogomedicamentos.R;
 
 import grupoDos.principal.grupoDos;
+import grupoTres.principal.grupoTres;
 import grupoUno.principal.grupoUno;
 
 public class MainActivity extends AppCompatActivity {
@@ -28,6 +29,11 @@ public class MainActivity extends AppCompatActivity {
     public void GrupoDos(View view){
         Intent grupodos=new Intent(this, grupoDos.class);
         startActivity(grupodos);
+    }
+
+    public void GrupoTres(View view){
+        Intent grupoTres=new Intent(this, grupoTres.class);
+        startActivity(grupoTres);
     }
 
 }

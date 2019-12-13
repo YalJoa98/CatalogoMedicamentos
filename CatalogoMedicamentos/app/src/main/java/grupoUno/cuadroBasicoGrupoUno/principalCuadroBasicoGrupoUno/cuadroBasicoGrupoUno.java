@@ -20,8 +20,6 @@ public class cuadroBasicoGrupoUno extends AppCompatActivity {
         this.setTitle(R.string.cuadroBasico_GrupoUno);
     }
 
-    private TextView medicina1;
-
     public void Seleccion(View view){
         switch (view.getId()){
             case R.id.btn1_GrupoUno:
