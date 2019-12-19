@@ -32,7 +32,38 @@ public class cuadroBasicoGrupoTres extends AppCompatActivity {
                 Intent btn3=new Intent(this, captoprilCuadroBasicoGrupoTres.class);
                 startActivity(btn3);
                 break;
-
+            case R.id.btn4_grupoTres:
+                Intent btn4=new Intent(this, clortalidonaCuadroBasicoGrupoTres.class);
+                startActivity(btn4);
+                break;
+            case R.id.btn5_grupoTres:
+                Intent btn5=new Intent(this, digoxinaTabletaCuadroBasicoGrupoTres.class);
+                startActivity(btn5);
+                break;
+            case R.id.btn6_grupoTres:
+                Intent btn6=new Intent(this, digoxinaElixirCuadroBasicoGrupoTres.class);
+                startActivity(btn6);
+                break;
+            case R.id.btn7_grupoTres:
+                Intent btn7=new Intent(this, digoxinaSolucionInyectableCuadroBasicoGrupoTres.class);
+                startActivity(btn7);
+                break;
+            case R.id.btn8_grupoTres:
+                Intent btn8=new Intent(this, enalaprilOLisinoprilORamiprilCuadroBasicoGrupoTres.class);
+                startActivity(btn8);
+                break;
+            case R.id.btn9_grupoTres:
+                Intent btn9=new Intent(this, epinefrinaCuadroBasicoGrupoTres.class);
+                startActivity(btn9);
+                break;
+            case R.id.btn10_grupoTres:
+                Intent btn10=new Intent(this, hidralazinaTabletaCuadroBasicoGrupoTres.class);
+                startActivity(btn10);
+                break;
+            case R.id.btn11_grupoTres:
+                Intent btn11=new Intent(this, hidralazinaSolucionInyectableCuadroBasicoGrupoTres.class);
+                startActivity(btn11);
+                break;
         }
     }
 }

@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="grupoTres.cuadroBasicoGrupoTres.medicamentosCuadroBasicoGrupoTres.captoprilCuadroBasicoGrupoTres"></activity>
+        <activity android:name="grupoTres.cuadroBasicoGrupoTres.medicamentosCuadroBasicoGrupoTres.hidralazinaSolucionInyectableCuadroBasicoGrupoTres"></activity>
+        <activity android:name="grupoTres.cuadroBasicoGrupoTres.medicamentosCuadroBasicoGrupoTres.hidralazinaTabletaCuadroBasicoGrupoTres" />
+        <activity android:name="grupoTres.cuadroBasicoGrupoTres.medicamentosCuadroBasicoGrupoTres.epinefrinaCuadroBasicoGrupoTres" />
+        <activity android:name="grupoTres.cuadroBasicoGrupoTres.medicamentosCuadroBasicoGrupoTres.enalaprilOLisinoprilORamiprilCuadroBasicoGrupoTres" />
+        <activity android:name="grupoTres.cuadroBasicoGrupoTres.medicamentosCuadroBasicoGrupoTres.digoxinaSolucionInyectableCuadroBasicoGrupoTres" />
+        <activity android:name="grupoTres.cuadroBasicoGrupoTres.medicamentosCuadroBasicoGrupoTres.digoxinaElixirCuadroBasicoGrupoTres" />
+        <activity android:name="grupoTres.cuadroBasicoGrupoTres.medicamentosCuadroBasicoGrupoTres.digoxinaTabletaCuadroBasicoGrupoTres" />
+        <activity android:name="grupoTres.cuadroBasicoGrupoTres.medicamentosCuadroBasicoGrupoTres.clortalidonaCuadroBasicoGrupoTres" />
+        <activity android:name="grupoTres.cuadroBasicoGrupoTres.medicamentosCuadroBasicoGrupoTres.captoprilCuadroBasicoGrupoTres" />
         <activity android:name="grupoTres.cuadroBasicoGrupoTres.medicamentosCuadroBasicoGrupoTres.amlodipinoTabletaDosCuadroBasicoGrupoTres" />
         <activity android:name="grupoTres.cuadroBasicoGrupoTres.medicamentosCuadroBasicoGrupoTres.amlodipinoTabletaUnoCuadroBasicoGrupoTres" />
         <activity android:name="grupoTres.catalogoGrupoTres.principalCatalogoGrupoTres.catalogoGrupoTres" />
