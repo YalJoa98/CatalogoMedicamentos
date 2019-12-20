@@ -11,6 +11,8 @@ import grupoTres.cuadroBasicoGrupoTres.medicamentosCuadroBasicoGrupoTres.*;
 
 public class cuadroBasicoGrupoTres extends AppCompatActivity {
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,6 +65,38 @@ public class cuadroBasicoGrupoTres extends AppCompatActivity {
             case R.id.btn11_grupoTres:
                 Intent btn11=new Intent(this, hidralazinaSolucionInyectableCuadroBasicoGrupoTres.class);
                 startActivity(btn11);
+                break;
+            case R.id.btn12_grupoTres:
+                Intent btn12=new Intent(this, isosorbidaTabletaSublingualCuadroBasicoGrupoTres.class);
+                startActivity(btn12);
+                break;
+            case R.id.btn13_grupoTres:
+                Intent btn13=new Intent(this, isosorbidaTabletaCuadroBasicoGrupoTres.class);
+                startActivity(btn13);
+                break;
+            case R.id.btn14_grupoTres:
+                Intent btn14=new Intent(this, metoprololCuadroBasicoGrupoTres.class);
+                startActivity(btn14);
+                break;
+            case R.id.btn15_grupoTres:
+                Intent btn15=new Intent(this, nifedipinoCapsulaDeGelatinaBlandaCuadroBasicoGrupoTres.class);
+                startActivity(btn15);
+                break;
+            case R.id.btn16_grupoTres:
+                Intent btn16=new Intent(this, nifedipinoComprimidoDeLiberacionProlongadaCuadroBasicoGrupoDos.class);
+                startActivity(btn16);
+                break;
+            case R.id.btn17_grupoTres:
+                Intent btn17=new Intent(this, pentoxifilinaCuadroBasicoGrupoTres.class);
+                startActivity(btn17);
+                break;
+            case R.id.btn18_grupoTres:
+                Intent btn18=new Intent(this, propranololTabletaUnoCuadroBasicoGrupoTres.class);
+                startActivity(btn18);
+                break;
+            case R.id.btn19_grupoTres:
+                Intent btn19=new Intent(this, propranololTabletaDosCuadroBasicoGrupoTres.class);
+                startActivity(btn19);
                 break;
         }
     }
